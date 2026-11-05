@@ -1,4 +1,4 @@
-# crosswire-api-com
+# Crosswire
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,120 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-crosswire-api-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://crosswire-api.com/
+Crosswire provides a pre‑trade resolution‑truth gate for cross‑venue trading agents. It audits event markets across platforms like Polymarket and Kalshi, returning SAFE, CAUTION, or BLOCK verdicts with detailed rule divergences. The service operates statelessly, machine‑to‑machine, at a low cost per call, helping users avoid settlement mismatches and protect hedged positions.
+
+**Areas:** API · Finance · Trading · Crypto · Risk
+
+## Crosswire on APIs.io
+
+Everything profiled for Crosswire is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/crosswire-api-com/](https://apis.io/providers/crosswire-api-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [Crosswire Adoption API](https://apis.io/apis/crosswire-api-com/crosswire-api-com-adoption-api/) — The Adoption API from Crosswire — 1 operation(s) for adoption.
+- [Crosswire Audit API](https://apis.io/apis/crosswire-api-com/crosswire-api-com-audit-api/) — The Audit API from Crosswire — 1 operation(s) for audit.
+- [Crosswire Events API](https://apis.io/apis/crosswire-api-com/crosswire-api-com-events-api/) — The Events API from Crosswire — 1 operation(s) for events.
+- [Crosswire Health API](https://apis.io/apis/crosswire-api-com/crosswire-api-com-health-api/) — The Health API from Crosswire — 1 operation(s) for health.
+- [Crosswire Live API](https://apis.io/apis/crosswire-api-com/crosswire-api-com-live-api/) — The Live API from Crosswire — 1 operation(s) for live.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Crosswire Api Com Agentic Access](https://apis.io/agentic-access/crosswire-api-com/crosswire-api-com-agentic-access/)
+
+#### JSON Schema (5)
+
+The data models the API reads and writes.
+
+- [EventInfo](https://apis.io/schemas/crosswire-api-com/crosswire-api-com-event-info/)
+- [HealthResponse](https://apis.io/schemas/crosswire-api-com/crosswire-api-com-health-response/)
+- [LivenessResponse](https://apis.io/schemas/crosswire-api-com/crosswire-api-com-liveness-response/)
+- [Venue](https://apis.io/schemas/crosswire-api-com/crosswire-api-com-venue/)
+- [VenueMarketRef](https://apis.io/schemas/crosswire-api-com/crosswire-api-com-venue-market-ref/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Crosswire Api Com Context](https://apis.io/jsonld/crosswire-api-com/crosswire-api-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Crosswire API Rules](https://apis.io/rules/crosswire-api-com/crosswire-api-com-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Crosswire Api Com Domain Security](https://apis.io/security/crosswire-api-com/crosswire-api-com-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://crosswire-api.com/)
+- [Documentation](https://api.crosswire-api.com/docs)
+- [Getting started](https://api.crosswire-api.com/docs#/default/health_v1_health_get)
+- [API reference](https://api.crosswire-api.com/openapi.json)
+
+## API Evangelist rating
+
+**Kin Score 32.1** — thin · rubric 0.25.0 · scored 2026-11-04
+
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 48.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 28.6 |
+| Access clarity | 0.0 |
+
+**Agent readiness 22.4** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 10.2** — Securities & Market Data
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/crosswire-api-com/](https://apis.io/providers/crosswire-api-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Crosswire: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/crosswire-api-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
